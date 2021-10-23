@@ -444,7 +444,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722955811657379592}
-  m_LocalRotation: {x: 0.25266686, y: -0.00937111, z: 0.0035983564, w: 0.9675013}
+  m_LocalRotation: {x: 0.25266686, y: -0.009371079, z: 0.003598344, w: 0.9675013}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1116,7 +1116,7 @@ GameObject:
   - component: {fileID: 3357757029162766550}
   m_Layer: 0
   m_Name: MAN HAS FALLEN INTO A RIVER IN LEGO CITY
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1895,7 +1895,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5042416134590414095}
-  m_LocalRotation: {x: 0.32324964, y: -0.009499224, z: 0.0032450047, w: 0.9462605}
+  m_LocalRotation: {x: 0.32324964, y: -0.009499257, z: 0.003245016, w: 0.9462605}
   m_LocalPosition: {x: 0.602262, y: 25, z: -29.993952}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
@@ -2520,7 +2520,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6403110115982270098}
-  m_LocalRotation: {x: 0.2701772, y: -0.009304262, z: 0.0037677581, w: 0.9627583}
+  m_LocalRotation: {x: 0.2701772, y: -0.009304294, z: 0.0037677714, w: 0.9627583}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

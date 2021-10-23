@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118262067110586623}
-  m_LocalRotation: {x: 0.32264096, y: -0.058815166, z: 0.020091698, w: 0.94447863}
+  m_LocalRotation: {x: 0.32264096, y: -0.05881517, z: 0.020091694, w: 0.94447863}
   m_LocalPosition: {x: 3.7219977, y: 25, z: -29.768236}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
@@ -884,7 +884,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067766084984083057}
-  m_LocalRotation: {x: 0.28710294, y: -0.05717421, z: 0.02437238, w: 0.9558813}
+  m_LocalRotation: {x: 0.28710294, y: -0.0571742, z: 0.024372377, w: 0.9558813}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1537,7 +1537,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6032377454641445624}
-  m_LocalRotation: {x: 0.25219113, y: -0.0580218, z: 0.022279447, w: 0.9656794}
+  m_LocalRotation: {x: 0.25219113, y: -0.05802176, z: 0.022279432, w: 0.9656794}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2359,7 +2359,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7029154668589817757}
   - component: {fileID: 7694191336637023524}
-  - component: {fileID: 7694191336637023515}
   - component: {fileID: 7694191336637023514}
   - component: {fileID: 7694191336637023525}
   - component: {fileID: 7694191336637023512}
@@ -2411,7 +2410,7 @@ Animator:
   m_GameObject: {fileID: 7694191336637023527}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1ddd6cb999c791347a5416c17d36ea26, type: 2}
+  m_Controller: {fileID: 9100000, guid: d3bf8e67df7211444822a14cf010b2a3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2420,23 +2419,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7694191336637023515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7694191336637023527}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7026672bf8e043944ab2ce65575f68eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7694191336637023512}
-  anim: {fileID: 7694191336637023524}
-  speed: 5
-  JumForce: 7
-  isGrounded: 0
 --- !u!114 &7694191336637023514
 MonoBehaviour:
   m_ObjectHideFlags: 0

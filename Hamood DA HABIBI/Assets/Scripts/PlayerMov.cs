@@ -9,6 +9,7 @@ public class PlayerMov : MonoBehaviour
 
     public Rigidbody player;
     public Animator anim;
+    public GameObject CmCam;
 
     public float speed;
     public float JumForce;
@@ -65,6 +66,10 @@ public class PlayerMov : MonoBehaviour
             {
                 anim.SetBool("isRunning", false);
             }
+        }
+        if (!view.IsMine)
+        {
+            CmCam.SetActive(false);
         }
     }
 }

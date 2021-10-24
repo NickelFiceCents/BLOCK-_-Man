@@ -7,6 +7,7 @@ public class FollowBehaviour : StateMachineBehaviour
     private Transform PlayerPos;
     public float speed;
     public float Radius;
+
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         PlayerPos = GameObject.FindGameObjectWithTag("Player").transform;
@@ -15,10 +16,7 @@ public class FollowBehaviour : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (Physics.CheckSphere(transform.position, Radius))
-        {
             animator.transform.position = Vector3.MoveTowards(animator.transform.position, PlayerPos.position, speed);
-        }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

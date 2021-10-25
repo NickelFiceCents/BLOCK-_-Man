@@ -6,7 +6,6 @@ public class FollowBehaviour : StateMachineBehaviour
 {
     private Transform PlayerPos;
     public float speed;
-    public float Radius;
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {

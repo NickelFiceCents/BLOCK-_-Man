@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class EnemyRot : MonoBehaviour
 {
-    public Transform player;
+    Transform player;
     private Rigidbody rb;
     void Start()
     {
-        rb = this.GetComponent<Rigidbody>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame

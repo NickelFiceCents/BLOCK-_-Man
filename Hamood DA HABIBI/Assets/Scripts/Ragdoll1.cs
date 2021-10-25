@@ -9,16 +9,13 @@ public class Ragdoll1 : MonoBehaviour
     private Rigidbody[] rigidbodies;
     private Collider[] colliders;
 
-    public Animator anim;
+    Animator anim;
     public Collider PlayerCol;
     public Rigidbody PlayerRb;
 
-    PhotonView view;
-
     void Start()
     {
-        view = GetComponent<PhotonView>();
-
+        anim = GetComponent<Animator>();
         rigidbodies = GetComponentsInChildren<Rigidbody>();
         colliders = GetComponentsInChildren<Collider>();
 
@@ -29,10 +26,7 @@ public class Ragdoll1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("r") && view.IsMine)
-        {
-            RagdollEnable();
-        }
+        
     }
     private void SetCollidersEnabled(bool enabled)
     {
@@ -52,7 +46,7 @@ public class Ragdoll1 : MonoBehaviour
     }
     private void RagdollEnable()
     {
-        this.GetComponent<PlayerMov>().enabled = false;
+        this.GetComponent<EnemyRot>().enabled = false;
         Destroy(PlayerCol);
         Destroy(PlayerRb);
         anim.enabled = false;

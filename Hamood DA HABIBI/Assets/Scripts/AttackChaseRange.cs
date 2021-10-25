@@ -11,7 +11,6 @@ public class AttackChaseRange : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-
         StartCoroutine(AttackRange());
     }
 

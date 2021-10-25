@@ -1639,6 +1639,7 @@ GameObject:
   - component: {fileID: 5138971569589225823}
   - component: {fileID: 6628454579487872004}
   - component: {fileID: 4455522007276395625}
+  - component: {fileID: 6375691774907987638}
   m_Layer: 0
   m_Name: Covid-19
   m_TagString: Enemy
@@ -1816,7 +1817,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 40
+  m_Radius: 100
   m_Center: {x: 0, y: 5, z: 0}
 --- !u!114 &6628454579487872004
 MonoBehaviour:
@@ -1846,6 +1847,19 @@ MonoBehaviour:
   anim: {fileID: 7694191336637023524}
   PlayerCol: {fileID: 7694191336637023525}
   PlayerRb: {fileID: 7694191336637023512}
+--- !u!114 &6375691774907987638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7694191336637023527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468873d3c9d53724f847e806c14adabf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 5042416135343803523, guid: 0295b088d302ec7478a66e6538dd6fc9, type: 3}
 --- !u!1 &8208457533304775827
 GameObject:
   m_ObjectHideFlags: 0

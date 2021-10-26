@@ -19,4 +19,8 @@ public class ButtonScript : MonoBehaviour
             AudioSource.PlayClipAtPoint(clickSound, transform.position);
         }
     }
+    public void UrMom()
+    {
+        AudioSource.PlayClipAtPoint(clickSound, transform.position);
+    }
 }
